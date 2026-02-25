@@ -154,7 +154,7 @@ class TestAirbnbListings(unittest.TestCase):
             reader = csv.DictReader(f)
             rows = list(reader)
             
-            # Check that we have the expected number of rows
+            # Check that we have the expected number of row
             self.assertEqual(len(rows), 18)
             
             # Verify header
